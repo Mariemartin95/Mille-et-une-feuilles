@@ -1,0 +1,126 @@
+/* style.css */
+body{
+  background:#EFE6DD;
+  color: #EFE6DD;
+  font-size: 25px;
+  font-family: 'Kite One', sans-serif;
+  font-weight: bolder;
+  margin : 0;
+}
+h1{
+  font-family: 'Kite One', sans-serif;
+  color: #FFCADC;
+  font-weight: lighter;
+  font-size: 40px;
+text-align: center;
+}
+
+h3 {
+  font-family: 'Kite One', sans-serif;
+  color: #CC5D7E;
+  font-size: 10px;
+
+}
+
+a {
+  font-family: 'Kite One', sans-serif;
+  font-weight: bolder;
+  color: white;
+
+}
+
+a:hover {
+  color: pink;
+}
+p:hover{
+  color:pink;
+}
+
+p {
+  font-size : 15px;
+  font-family: 'Kite One', sans-serif;
+  }
+
+h4 {
+  font-size : 15px;
+  font-family: 'Kite One', sans-serif;
+  }
+
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1530915493757-0677252ffeee?ixlib=rb-0.3.5&s=71559f88dee7006c0070fe35580ded8d&auto=format&fit=crop&w=1951&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: 40px
+  height:100vh;
+  font-family: 'Kite One', sans-serif;
+
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center
+}
+#footer p {
+  font-weight: lighter
+  }
+
+.card {
+    padding: 50px;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    height: 450px;
+}
+
+.card2 {
+    padding-bottom:30px;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+}
+
+.img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
